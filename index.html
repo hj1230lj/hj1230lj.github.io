@@ -2,12 +2,56 @@
 <html>
 <head> 
 <meta charset="utf-8"> 
-<title>何静</title> 
+<title>我们的故事</title> 
+<script type="text/javascript">
+	function a1(){
+		   
+		    var username = document.getElementByid("username").value;
+            var password = document.getElementByid("password").value;
+            //alert("enter");
+            if(username == "")
+            {
+                alert("用户名非法")；
+                //alert("enter");
+                //console.log('调试区');
+                 //document.write("<p>用户名非法</p>");
+                return ;
+            }
+            if(password == "")
+            {
+                //alert("密码非法")；
+
+                return ;
+            }
+
+             if(username == "ourstory")
+            {
+                if(password == "love")
+                    {
+                        alert("欢迎来到我们的故事")；
+                    }
+                else
+                {
+                    //alert("密码错误")；
+                }
+            }
+        
+	}
+</script>>
 </head>
 <body>
 你好吗?
 	
 <img src="src/lo.jpg" alt="Smiley face" width="420" height="420">
 
+
+<form>
+<div>
+<p>用户名:<input type="txt" id="username" name="username"></p>
+    <p>密&emsp;码:<input type="password" id="password" name="password"></p>
+   <!--  <input type = "button" value = "登陆" onclick="a()"/> -->
+   <button type="button" onclick="a1()">dg</button>
+</div>
+</form> 
 </body>
 </html>
