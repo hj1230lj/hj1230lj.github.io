@@ -9,7 +9,7 @@ function Balloon(pic) {
         this.background = setBackground();
     } else {
         // 图片半径稍微大些
-        this.radius = randomRange(50, 100);
+        this.radius = randomRange(60, 100);
         // 背景图片
         this.background = "url(" + pic + ")";
     }
